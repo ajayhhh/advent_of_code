@@ -24,7 +24,7 @@ def navigate_and_multiply(input):
             y -= cnt
             aim -= cnt
         else:
-            pass
+            print("Ooops!!, unknown input or unhandled exception occured. Answer may not be correct")
     return x * y , x * aim_depth
 
 if __name__ == '__main__':
